@@ -1,0 +1,14 @@
+{
+  "name": "meilisearch-sample",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start:server": "yarn workspace server start",
+    "start:client" : "yarn workspace client start"
+  },
+  "keywords": [],
+  "author": "khurram",
+  "license": "ISC",
+  "workspaces" : ["./packages/**"]
+}
